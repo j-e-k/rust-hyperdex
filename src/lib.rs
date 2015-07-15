@@ -7,7 +7,10 @@
 #![feature(collections)]
 #![feature(ip_addr)]
 #![feature(convert)]
-
+#![feature(future)]
+#![feature(vec_from_raw_buf)]
+#![feature(mpsc_select)]
+#![feature(thunk)]
 extern crate libc;
 extern crate rustc_serialize;
 
